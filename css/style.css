@@ -1,0 +1,73 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: '微软雅黑'
+}
+header{
+    widows: 100%;
+    background-color: #ddd;
+    height:82px;
+}
+
+header h1{
+    padding-left:20px;
+    padding-top:20px;
+}
+
+header h1 span{
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+nav {
+    width:100%;
+    margin: 20px 0px 30px 20px
+}
+
+.navbar li{
+    display: inline;
+    padding-left: 14px;
+}
+.groupNav{
+    padding-left: 14px;
+}
+
+a{
+    text-decoration:none;
+    color:#999;
+}
+
+a:hover{
+    color:#000;
+}
+#Bear01{
+    display: inline;
+    width: 33%;
+    float: left;
+}
+
+section article img {
+    width:40px;
+    height: 40px;
+}
+
+aside{
+    width: 300px;
+    float:left;
+    margin: 20px 0px 30px 20px
+}
+aside ul{
+    margin: 0px 0px 0px 20px
+}
+
+section article h1{
+    margin:0px 0px 20px 0px;    
+}
+section article ul li{
+    display: block;
+    margin:0px 0px 5px 0px;
+}
+
+section article img{
+    float: left;
+}
