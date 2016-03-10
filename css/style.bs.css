@@ -2,16 +2,118 @@
     margin:0;
     padding:0;
 }
+body{
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.icon{
+    width:60px;
+    height:60px;
+    
+}
+
+.icon-head{
+    width:140px;
+    height:140px;
+}
+
+.center{
+    text-align: center
+}
+
+.center li{
+    list-style: none;
+}
+
+.img-circle{
+    border-radius: 50%;
+}
+.navbar{
+    position: relative;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+.navbar-head{
+    float: left;
+}
+.navbar-head span{
+    font-size: 14px;
+    padding-left:5px;
+}
+
+.navbar-brand{
+    
+    padding: 15px 15px;
+    line-height: 20px;
+    color: #563d7c;
+}
+
+.navbar-nav{
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}
+.navbar-nav li{
+    display: inline;
+}
+
+.navbar-nav li a {
+    color:#463265;
+    font-weight: 500;
+    padding: 15px 15px;
+}
+
+
+.group-header{
+    padding:15px 0px 15px 0px;
+}
+
+.big-screen{
+    padding: 35px 0;
+    color: #498276;
+    background-color: #79d0bd;
+}
+.big-screen h1{
+    color: #fff;
+    font-size: 48px;
+    line-height: 1;
+    padding:0 0px 10px 0;
+}
+.big-screen p {
+    line-height:1.4;
+}
+.side-nav li{
+    list-style: none;
+        padding: 0px 0px 10px 0px;
+}
+
+.side-nav li a{
+
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.row{
+    padding:30px 0px;
+}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
-
-.navbar , .navbar li{
-    display: inline;
+.col-3,.col-4,.col-9{
+    position: relative;
+    min-height: 1px;
+    /*padding-right: 15px;
+    padding-left: 15px;*/
 }
+
 
 @media (min-width: 768px){
     .container {
@@ -22,6 +124,18 @@
 @media (min-width: 992px){
     .container {
         width: 970px;
+    }
+    .col-4{
+        width: 33.33%;
+    }
+    .col-3{
+        width: 25%;
+    }
+    .col-9{
+        width: 75%;
+    }
+    .col-3,.col-4,.col-9{
+        float:left;
     }
 }
 
