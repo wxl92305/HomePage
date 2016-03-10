@@ -16,5 +16,6 @@ IFE热身项目
 ## HTML
 
 ## JavaScript
+[单例模式]('./js/0701InstanceInAStaticProperty.js')
 
 ## Css 
